@@ -1,3 +1,58 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: azure;
+}
+
 #quote-list {
   padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+input.edit-form {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+#new-quote-form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.edit-form-group {
+  width: 100%;
+  padding: 10px
+}
+
+.form-group {
+  width: 45%;
+  padding: 10px
+}
+
+.btn-primary {
+  margin-left: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+}
+
+.btn-primary:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+}
+
+.likeBtn {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.deleteBtn {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: red;
 }
